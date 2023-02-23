@@ -6,7 +6,7 @@ for(let i = 0; i <=300; i ++ ) {
         Page--;
     }
     if(Page===0){
-        document.getElementById('p1').innerHTML += Page+' Changement de rouleau<br>';
+        document.getElementById('p1').innerHTML += Page+' <h1>Changement de rouleau</h1><br>';
         Page = 300;
         Page = Page - i;
         while(Page>0){
@@ -14,7 +14,7 @@ for(let i = 0; i <=300; i ++ ) {
             Page--;
         }
         if(Page===0){
-            document.getElementById('p1').innerHTML += Page+' Changez de rouleau si vous ne voulez pas utiliser vos doigts. 😜<br>';
+            document.getElementById('p1').innerHTML += Page+'<h1> Changez de rouleau si vous ne voulez pas utiliser vos doigts. 😜</h1><br>';
         }
     }
 }
